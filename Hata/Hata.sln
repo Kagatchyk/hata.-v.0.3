@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hata", "Hata\Hata.csproj", "{D540130D-AB82-4CA2-B061-0247F5B8D240}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D540130D-AB82-4CA2-B061-0247F5B8D240}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D540130D-AB82-4CA2-B061-0247F5B8D240}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D540130D-AB82-4CA2-B061-0247F5B8D240}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D540130D-AB82-4CA2-B061-0247F5B8D240}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F37693F-A3C2-499E-A2B7-2FC44B8D7E3E}
+	EndGlobalSection
+EndGlobal

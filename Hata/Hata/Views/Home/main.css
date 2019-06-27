@@ -1,0 +1,153 @@
+html, body, .container {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+   max-width:100%;
+    
+}
+.container {
+    position: relative;
+}
+.parent {
+    width: 50%;
+    margin: 0;
+    height: 50%;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    
+}
+
+.child {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    -webkit-box-shadow: inset 0px 0px 7px 1px rgba(255,255,255,1);
+    -moz-box-shadow: inset 0px 0px 7px 1px rgba(255,255,255,1);
+    box-shadow: inset 0px 0px 7px 1px rgba(255,255,255,1);
+}
+    .parent:hover .child, .parent:focus {
+    -ms-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+    .bg-1 {background-image: url(..//Home/img/arhiv.jpg);}
+    .bg-2 {background-image: url(..//Home/img/fot.jpg);}
+    .bg-3 {background-image: url(..//Home/img/musik.jpg);}
+    .bg-4 {background-image: url(..//Home/img/vid.jpg);}
+
+
+    .but {
+    width: 10vw;
+    height: 3.6vw;
+    position: relative;
+    box-shadow: 0px 12px 16px #000000;
+    display: block;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    border-radius: 9vw 9vw 9vw 9vw;
+    -moz-border-radius: 9vw 9vw 9vw 9vw;
+    -webkit-border-radius: 9vw 9vw 9vw 9vw;
+    border: 0vw none #000000;
+    padding: 0vw 0vw 1vw 2.7vw;
+    -webkit-box-shadow: inset 0px 0px 7px 1px rgba(255,255,255,1);
+    -moz-box-shadow: inset 0px 0px 7px 1px rgba(255,255,255,1);
+    box-shadow: inset 0px 0px 7px 1px rgba(255,255,255,1);
+}
+    
+    .but:hover {
+    -ms-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+    a { 
+    font-family: 'Poiret One', cursive;
+    text-decoration: none;
+    font-size: 3.5vw;
+    color: #fff;
+    text-align: center;
+    text-shadow: -2px 0px 5px rgb(0, 0, 0);
+
+ }   
+    .b1 {
+     position: absolute;
+     top: 10vw;
+     left: 19vw;
+     
+     
+}
+    .b2 {
+    position: absolute;
+    top: 10vw;
+    left: 19vw;
+    
+
+ }
+    .b3 {
+    position: absolute;
+    top: 10vw;
+    left: 16.5vw;
+    width: 12.8vw;
+    
+    
+ }
+    .b4 {
+    position: absolute;
+    top: 10vw;
+    left: 19vw;
+}
+
+
+@media screen and (max-width: 640px) {
+    .parent {
+        width: 100%;
+        margin: 0;
+        height: 25%;
+        overflow: hidden;
+        position: relative;
+        float: left;
+    }
+        .b1 {
+            position: absolute;
+            top: 15vw;
+            left: 43vw;
+            
+       }
+           .b2 {
+           position: absolute;
+           top: 15vw;
+           left: 43vw;
+        }
+           .b3 {
+           position: absolute;
+           top: 15vw;
+           left: 41vw;
+           width: 13.2vw;
+           
+        }
+           .b4 {
+           position: absolute;
+           top: 15vw;
+           left: 43vw;
+       }
+
+}
+
+
+
+ 
+    
