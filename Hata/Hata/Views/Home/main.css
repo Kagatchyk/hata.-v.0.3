@@ -90,33 +90,33 @@ html, body, .container {
 
     .b1 {
      position: absolute;
-     top: 10vw;
-     left: 19vw;
+     top: 40%;
+     left: 40%;
      
      
 }
 
     .b2 {
     position: absolute;
-    top: 10vw;
-    left: 19vw;
+    top: 40%;
+     left: 40%;
     
 
  }
 
     .b3 {
     position: absolute;
-    top: 10vw;
-    left: 16.5vw;
-    width: 12.8vw;
+    top: 40%;
+     left: 37%;
+    width: 26%;
     
     
  }
 
     .b4 {
     position: absolute;
-    top: 10vw;
-    left: 19vw;
+    top: 40%;
+     left: 40%;
 }
 
 
@@ -131,32 +131,27 @@ html, body, .container {
     }
     .b1 {
         position: absolute;
-        top: 15vw;
-        left: 43vw;
+        top: 40%;
+        left: 44%;
         }
 
     .b2 {
         position: absolute;
-         top: 15vw;
-        left: 43vw;
+        top: 40%;
+        left: 44%;
         }
 
     .b3 {
          position: absolute;
-         top: 15vw;
-        left: 41vw;
-        width: 13.2vw;
+         top: 40%;
+        left: 43%;
+        width: 13%;
         }
         
     .b4 {
         position: absolute;
-        top: 15vw;
-        left: 43vw;
+        top: 40%;
+        left: 44%;
        }
+    }
 
-}
-
-
-
- 
-    

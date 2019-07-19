@@ -3,28 +3,53 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Data;
 
 namespace Hata.Controllers
 {
-	public class HomeController : Controller
-	{
-		public ActionResult Index()
-		{
-			return View();
-		}
+    public class MusicList
+    {
+        public int Id { get; set; }
+        public string Model { get; set; }
+        public decimal Price { get; set; }
+    }
+    public class HomeController : Controller
+    {
 
-		public ActionResult About()
-		{
-			ViewBag.Message = "Your application description page.";
+        MusicList musicList = new MusicList();
+        public ActionResult Index()
+        {
+           
+            return View();
+        }
+        [HttpGet]
+        public ActionResult About()
+        {
+            return View();
+        }
+        [HttpPost]
+        public ActionResult About(MusicList list)
+        {
+            if (list.Price < 100)
+            {
+                ViewBag.Message = "Вовк";
+            }
+            return View();
+        }
 
-			return View();
-		}
+        //public ActionResult Contact()
+        //{
+        //    ViewBag.Message = "Your contact page.";
 
-		public ActionResult Contact()
-		{
-			ViewBag.Message = "Your contact page.";
-			
-			return View();
-		}
-	}
+        //    return View();
+        //}
+       
+        public ActionResult Contact(int id)
+        {
+            ViewBag.Message = id*2;
+
+            return View();
+        }
+
+    }
 }
